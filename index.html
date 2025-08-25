@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="" class="img">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hidesidebar()"><a href="#"><i id="close" class="fa-solid fa-xmark"></i></a></li>
+                <img src="logo.png" alt="logo">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                <li><select class="produc">
+                        <option>Product</option>
+                        <option>Electronics</option>
+                        <option>Decoration item</option>
+                        <option>Gold</option>
+                        <option>Car</option>
+                        <option>Madecine</option>
+                        <option>grocery</option>
+                        <option>books</option>
+                        <option>kitchen</option>
+                    </select>
+                </li>
+
+
+
+            </ul>
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+                <div class="input"><input type="text" placeholder="search  flipkar item">
+                </div>
+                <button class="btn">search</button>
+
+            </div>
+            <ul>
+                <li class="hideonmobile"><a href="home.html">Home</a></li>
+                <li class="hideonmobile"><a href="about.html">About</a></li>
+                <li><select class="product">
+                        <option>Product</option>
+                        <option>Electronics</option>
+                        <option>Decoration item</option>
+                        <option>Gold</option>
+                        <option>Car</option>
+                        <option>Madecine</option>
+                        <option>grocery</option>
+                        <option>books</option>
+                        <option>kitchen</option>
+                    </select>
+                </li>
+                <li class="hideonmobile"><a href="login.html">Login</a></li>
+                <li class="menu-botton" onclick=showsidebar()><a href="#"><i id="list" class="fa-solid fa-list"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="imgslider">
+        </div>
+        <!-- slide for practice -->
+        <div class="ccc">
+            <div class="containt1">
+                <h2>washing machine</h2>
+                <p> washing machinne are use for wash the cloths<br> clearing and dry & essey wash cloth from machine
+                </p>
+            </div>
+            <div class="cccimg"></div>
+        </div>
+        <!-- for blur inverstor -->
+        <div class="container2">
+            <div class="card">
+                <div class="img-box" style="--img:url('/img/flowerpot.png')"></div>
+                <div class="text">
+                    <h3>Flower pot<br><span> For mini plant</span></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, i am web developer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box" style="--img:url('/img/nature.png')"></div>
+                <div class="text">
+                    <h3>Nature Photo<br><span>Frame....!!</span></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, i am web developer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box" style="--img:url('/img/flower.png')"></div>
+                <div class="text">
+                    <h3>for Dad<br><span>!! Gift !!</span></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, i am web developer</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-box" style="--img:url('/img/web.png')"></div>
+                <div class="text">
+                    <h3>Web developer<br><span>Piyush yadav !!</span></h3>
+                    <p>I am fronent web developer & this is a my mager project for practice and good learning</p>
+                </div>
+            </div>
+        </div>
+        <!-- heading for best electronics -->
+        <div class="headingh2"><h2>Best of Electronics</h2></div>
+        <!-- for  product seling -->
+        <div class="sell-box">
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/monitor.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Monitor</p>
+                <p id="rate">From ₹15999</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/printer.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Printer</p>
+                <p id="rate">From ₹12999</p>
+                <p id="buy">Grab now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/camerafless.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Top Mirrorless Came..</p>
+                <p id="rate">From ₹10999</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/cycle.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Cycle</p>
+                <p id="rate">From ₹7999</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/earbud.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Best Truewireless H..</p>
+                <p id="rate">From ₹1999</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/watch.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Fastrack Smartwatch..</p>
+                <p id="rate">From ₹999</p>
+                <p id="buy">Grab now!</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- heading no.2 for best electronics -->
+        <div class="headingh2"><h2>Beauty, Food,  Toy & More</h2></div>
+
+        <!-- for  product seling -->
+        <div class="sell-box">
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/dryfood.png" alt="monitor" width="140px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Dry Food</p>
+                <p id="rate">40% Off</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/softtoy.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Soft Toys</p>
+                <p id="rate">50% Off</p>
+                <p id="buy">Grab now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/stanserry.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Top Selling stantionery</p>
+                <p id="rate">80% Off</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/foodspeads.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Peanut Butter</p>
+                <p id="rate">60% Off</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/actiontoy.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m"> Best Of Action Toys</p>
+                <p id="rate">40% Off</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/coffe.png" alt="monitor" width="140px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Coffe  Powder</p>
+                <p id="rate">30% Off</p>
+                <p id="buy">Grab now!</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- heading no.3 for best electronics -->
+        <div class="headingh2"><h2>Sports, Healthcare & More</h2></div>
+        
+        <!-- for  product seling -->
+        <div class="sell-box">
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/musseli.png" alt="monitor" width="150px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Muesli</p>
+                <p id="rate">From ₹499</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/puzzules.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Puzzules Toys</p>
+                <p id="rate">50% Off</p>
+                <p id="buy">Grab now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/tatasouf.png" alt="monitor" width="150px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Masala Qats veg..</p>
+                <p id="rate">From ₹299</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/music.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Music instrument</p>
+                <p id="rate">70% Off</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/honey.png" alt="monitor" width="180px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Natural Honey</p>
+                <p id="rate">From ₹599</p>
+                <p id="buy">Shope now!</p>
+            </div>
+            </div>
+            <div class="box-item">
+                <div class="prod-photo">
+                <img src="/img/learning.png" alt="monitor" width="160px" height="180px">
+            </div>
+            <div class="prod-off">
+                <p id="m">Learing & Education..</p>
+                <p id="rate">60% Off</p>
+                <p id="buy">Grab now!</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- heading no 4 for investor -->
+      <div class="headingh3">
+        <h2>Seasion Top Pick</h2>
+      </div>
+       <div class="headingh3">
+        <h2>Make your home stylist</h2>
+      </div>
+       <div class="headingh3">
+        <h2>Home Decor & Furnishing..</h2>
+      </div>
+      <!-- investor of 4box -->
+
+    <div class="box4">
+        <div class="bo1">
+            <div class="prod-photo1">
+              <img src="/img/slepper.png" alt="food" height="130px" width="130px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Men'Slippers & fill..</p>
+                <p id="rate1">Min. 70% Off</p>
+            </div>
+        </div>
+        <div class="bo1">
+             <div class="prod-photo1">
+              <img src="/img/casualshirt.png" alt="food" height="130px" width="120px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Casual Shirts</p>
+                <p id="rate1">Special Offer</p>
+            </div>
+        </div>
+        <div class="bo1">
+             <div class="prod-photo1">
+              <img src="/img/womensari.png" alt="food" height="130px" width="100px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Women's Sarees</p>
+                <p id="rate1">Special Offer</p>
+            </div>
+        </div>
+        <div class="bo1">
+             <div class="prod-photo1">
+              <img src="/img/wristwatch.png" alt="food" height="130px" width="120px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Wrist Watches</p>
+                <p id="rate1">Min. 70% Off</p>
+            </div>
+        </div>
+      </div>
+      <div class="box4">
+        <div class="bo1">
+            <div class="prod-photo1">
+              <img src="/img/shoesrock.png" alt="food" height="130px" width="130px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Shoe Rack</p>
+                <p id="rate1">Min. 50% Off</p>
+            </div>
+        </div>
+        <div class="bo1">
+             <div class="prod-photo1">
+              <img src="/img/hometemple.png" alt="food" height="130px" width="130px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Home Temple</p>
+                <p id="rate1">Min. 50% Off</p>
+            </div>
+        </div>
+        <div class="bo1">
+             <div class="prod-photo1">
+              <img src="/img/portablelaptop.png" alt="food" height="130px" width="130px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Portable Laptop Ta...</p>
+                <p id="rate1">Min. 50% Off</p>
+            </div>
+        </div>
+        <div class="bo1">
+             <div class="prod-photo1">
+              <img src="/img/lovebirdsprint.png" alt="food" height="130px" width="130px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Love Birds Print</p>
+                <p id="rate1">Min. 50% Off</p>
+            </div>
+        </div>
+      </div>
+      <div class="box4">
+        <div class="bo1">
+            <div class="prod-photo1">
+              <img src="/img/wallclock.png" alt="food" height="130px" width="130px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Wall Clocks</p>
+                <p id="rate1">Top Sellers</p>
+            </div>
+        </div>
+        <div class="bo1">
+             <div class="prod-photo1">
+              <img src="/img/zoomableheadtourch.png" alt="food" height="130px" width="130px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Modern Tourch</p>
+                <p id="rate1">Min. 50% Off</p>
+            </div>
+        </div>
+        <div class="bo1">
+             <div class="prod-photo1">
+              <img src="/img/mats.png" alt="food" height="130px" width="130px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Mats !!</p>
+                <p id="rate1">Best picks</p>
+            </div>
+        </div>
+        <div class="bo1">
+             <div class="prod-photo1">
+              <img src="/img/mosquitonet.png" alt="food" height="130px" width="130px">
+            </div>
+           <div class="prod-off1">
+                <p id="m1">Mosquito Nets</p>
+                <p id="rate1">Top Deals</p>
+            </div>
+        </div>
+      </div>
+    
+       
+
+    </main>
+    <footer>
+    </footer>
+    <script>
+        function showsidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none'
+
+        }
+    </script>
+</body>
+
+</html>
